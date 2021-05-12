@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+#middle{margin-top: 605px;}
+
+
+section>#middle>.slides{
+    display: flex;
+    position: relative;
+}
+
+section>#middle>.slides>.article4{
+    width: 243px;
+    padding: 30px;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+section>#middle>.slides>.article4>li:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 302px;
+    height: 80px;
+    text-indent: -9999px;
+    background-color: #009de0;
+    background-repeat: no-repeat;
+}
+
+section>#middle>.slides>.article4>li:nth-child(2){
+    position: absolute;
+    top: 30px;
+    width: 183px;
+    height: 19px;
+    text-indent: -9999px;
+    background-image: url(../images/recruit_tit.gif);
+}
+
+section>#middle>.slides>.article4>li:nth-child(3){
+    position: absolute;
+    bottom: 60px;
+    width: 240px;
+    height: 78px;
+    text-indent: -9999px;
+    background-image: url(../images/recruit_txt.gif);
+}
+
+section>#middle>.slides>.article4>li:nth-child(4){
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 37px;
+    height: 9px;
+    text-indent: -9999px;
+    background-image: url(../images/btn_view_white.gif);
+}
+
+/* 슬라이드 */
+
+section>#middle>.slides>.story{
+    position: relative;
+    width: 634px;
+    height: 255px;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+
+section>#middle>.slides>ul{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+section>#middle>.slides>ul>li{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+section>#middle>.slides>ul>li:nth-child(1){
+    display: block;
+    background-image: url(../images/people_slide_01.jpg);
+}
+
+section>#middle>.slides>ul>li:nth-child(2){
+    background-image: url(../images/people_slide_02.jpg);
+}
+
+
+section>#middle>.slides>ul>li>a:nth-of-type(1){
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 180px;
+    height: 63px;
+    text-indent: -9999px;
+}
+
+section>#middle>.slides>ul>li>a.story_1{
+    top: 72px;
+}
+
+section>#middle>.slides>ul>li>a.story_2{
+    top: 0;
+}
+
+
+
+section>#middle>.slides>ul>li>p{
+    position: absolute;
+    left: 30px;
+    top: 170px;
+    line-height: 1.6;
+}
+
+
+section>#middle>.slides>ul>li>a:nth-of-type(2){
+    display: block;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    width: 37px;
+    height: 9px;
+    text-indent: -9999px;
+    background-image: url(../images/btn_poeple_view.png);
+}
+
+section>#middle>.slides>a{
+    display: block;
+    position: absolute;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    text-indent: -9999px;
+}
+
+section>#middle>.slides>a:hover,
+section>#middle>.slides>a.on{opacity: 0.5;}
+
+section>#middle>.slides>a.btn_play{
+    right: 50px;
+    background-image: url(../images/people_play.png);
+    background-repeat: no-repeat;
+}
+
+section>#middle>.slides>a.btn_stop{
+    right: 30px;
+    background-image: url(../images/people_pause.png);
+    background-repeat: no-repeat;
+}

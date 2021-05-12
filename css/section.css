@@ -1,0 +1,120 @@
+@charset "utf-8";
+
+section{
+    overflow: hidden;
+    width: 940px;
+    margin: 0 auto;
+}
+
+section>h2{display: none;}
+
+#section{position: relative;}
+
+#section>.container{
+    display: flex;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: calc(940px * 3);
+    height: 485px;
+}
+
+#section>.container>li{
+    display: block;
+    width: 940px;
+    height: 485px;
+    text-indent: -9999px;
+}
+
+
+#section>ul>li:nth-child(1){background-image: url(../images/mainimage_3.jpg);}
+#section>ul>li:nth-child(2){background-image: url(../images/mainimage_2.jpg);}
+#section>ul>li:nth-child(3){background-image: url(../images/mainimage_1.jpg);}
+
+
+#section>.prev{
+    /* display: none; */
+    text-indent: -9999px;
+}
+
+#section>.prev>li>a{
+    display: block;
+    width: 42px;
+    height: 42px;
+}
+
+#section>.prev>li{
+    display: block;
+    position: absolute;
+    top: 230px;
+    width: 42px;
+    height: 42px;
+}
+
+#section>.prev>li:nth-child(1){
+    position: absolute;
+    left: -43px;
+    background-image: url(../images/slide_nav_left.png);
+}
+#section>.prev>li:nth-child(2){
+    position: absolute;
+    right: -43px;
+    background-image: url(../images/slide_nav_right.png);
+}
+
+#section>.button{
+    display: flex;
+    position: absolute;
+    top: 450px;
+    left: 45px;
+    justify-content: space-around;
+
+    width: 50px;
+}
+
+#section>.button>li{
+    display: block;
+    width: 12px;
+    height: 12px;
+    text-indent: -9999px;
+    background-image: url(../images/visual_pager.png);
+    background-position: 12px 0;
+}
+
+#section>.button>li>a{
+    display: block;
+    width: 12px;
+    height: 12px;
+}
+
+#section>.button>li.on,
+#section>.button>li:hover{
+    background-position: 0 0;
+}
+
+#section>a{
+    display: block;
+    position: absolute;
+
+    left: 25px;
+    bottom: 20px;
+
+    width: 12px;
+    height: 12px;
+    text-indent: -9999px;
+}
+
+#section>.play{display: none;background-image: url(../images/visual_play.png);}
+#section>.stop{
+    position: absolute;
+    top: 450px;
+    background-image: url(../images/visual_pause.png);
+}
+
+section>.bar{
+    position: absolute;
+    top: 620px;
+}
+
+
+

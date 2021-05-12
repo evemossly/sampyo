@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+.option{
+    font-family: 돋움;
+    font-size: 7px;
+}
+
+.option>.select{
+    position: absolute;
+    left: 318px;
+    width: 237px;
+    height: 110px;
+    padding: 30px;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+
+.option>.select>h2{
+    display: block;
+    width: 233px;
+    height: 21px;
+    text-indent: -9999px;
+    background-image: url(../images/sec_btm_location_tit.gif);
+}
+
+.option>.select>form{
+    position: relative;
+    width: 170px;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+/* 회사 이름 선택 */
+.option>.select>form>fieldset{
+    position: relative;
+    width: 140px;
+}
+
+.option>.select>form>fieldset>input{
+    border: none;
+    outline: none;
+    background-color: none;
+
+    width: 145px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+    text-indent: 8px;
+    font-family: 돋움;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.option>.select>form>fieldset>ul{
+    display: none;
+    overflow-y: scroll;
+    width: 149px;
+    height: 90px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+}
+
+.select>form>fieldset>ul>li{
+    width: 100%;
+    color: rgb(87, 87, 87);
+    line-height: 30px;
+    text-indent: 9px;
+    font-size: 11px;
+    background-color: #fff;
+}
+
+.select>form>fieldset>ul>li>a{
+    display: block;
+    height: 30px;
+}
+
+.select>form>fieldset>label{
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-image: url(../images/select_img.gif);
+}
+
+/* .select>form>fieldset.select-name>input:hover~ul{
+    display: block;
+    overflow-y: scroll;
+    height: 90px;
+} */
+
+.select>form>fieldset>ul>li:hover,
+.select>form>fieldset>ul>li.on{
+    color: #000;
+    background-color: #ccc;
+}
+
+
+
+/* 버튼 */
+.select>button{
+    border: none;
+    outline: none;
+    background-color: none;
+    
+    
+    position: absolute;
+    top: 68px;
+    right: 35px;
+    width: 73px;
+    height: 69px;
+    color: #fff;
+    text-indent: -9999px;
+    background-image: url(../images/btn_search.gif);
+}
+
+
+address{
+    line-height: 50px;
+    text-align: center;
+}

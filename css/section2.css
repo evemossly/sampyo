@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+#middle{margin-top: 390px;}
+
+.article{
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article>ul{
+    width: 240px;
+    height: 250px;
+    padding: 30px;
+    line-height: 20px;
+    border: 1px solid rgb(235, 235, 235);
+}
+
+.article>.article1>.pht{
+    display: block;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+
+    width: 302px;
+    height: 200px;
+
+    text-indent: -9999px;
+
+    background-image: url(../images/THUMB_SAMPYONEWS_BT_243.jpg);
+    background-size: 150%;
+    background-position: -70px 20px;
+    background-repeat: no-repeat;
+}
+
+.article>.article1>.txt{
+    display: block;
+    margin-top: 160px;
+}
+
+.article>.article1>.txt>strong{
+    display: block;
+    color: rgb(0, 161, 135);
+    margin-bottom: -10px;
+}
+
+.article>.article1>.more{
+    display: block;
+    position: absolute;
+    bottom: 108px;;
+    left: 235px;
+    width: 41px;
+    height: 8px;
+    text-indent: -9999px;
+    background-image: url(../images/btn_more.gif);
+}
+
+.article>.article1>.more>a{
+    display: block;
+    width: 41px;
+    height: 8px;
+}
+
+.box{
+    display: flex;
+    position: absolute;
+    top: 740px;
+
+}
+
+.pic1{
+    width: 302px;
+    height: 48px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+.pic1>ul{display: flex;}
+
+.pic1>ul>li{line-height: 36px;text-indent: 13px;}
+
+.pic1>ul>.notice{
+    display: block;
+    width: 60px;
+    height: 48px;
+    text-indent: -9999px;
+    background-image: url(../images/sec_mid_ico_news.gif);
+}
+
+/* ///////////////////////////// */
+
+.article>.article2>.pht{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 319px;
+
+    width: 302px;
+    height: 200px;
+
+    text-indent: -9999px;
+
+    background-image: url(../images/THUMB_CSRNEWS_BT_90.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.article>.article2>.txt{
+    display: block;
+    margin-top: 160px;
+}
+
+.article>.article2>.txt>strong{
+    display: block;
+    color: rgb(0, 161, 135);
+    margin-bottom: -10px;
+}
+
+.article>.article2>.more{
+    display: block;
+    position: absolute;
+    bottom: 108px;;
+    left: 555px;
+    width: 41px;
+    height: 8px;
+    text-indent: -9999px;
+    background-image: url(../images/btn_more.gif);
+}
+
+.article>.article2>.more>a{
+    display: block;
+    width: 41px;
+    height: 8px;
+}
+
+
+.box{
+    display: flex;
+    position: absolute;
+    top: 740px;
+}
+
+.box>.pic2{
+    position: absolute;
+    left: 319px;
+    width: 302px;
+    height: 48px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+.box>.pic2>ul{display: flex;}
+
+.box>.pic2>ul>.txt{
+    display: block;
+    width: 220px;
+    margin-top: 5px;
+    margin-left: 10px;
+    line-height: 20px;
+
+}
+
+.box>.pic2>ul>.news{
+    display: block;
+    width: 60px;
+    height: 48px;
+    text-indent: -9999px;
+    background-image: url(../images/sec_mid_ico_social.gif);
+}
+
+
+.article>.article3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article>.article3>li{
+    display: block;
+    width: 100px;
+    height: 88px;
+    text-indent: -9999px;
+}
+
+.article>.article3>li:nth-child(1){margin-top: -20px;margin-left: -15px;background-image: url(../images/qlink_01.jpg);}
+.article>.article3>li:nth-child(2){margin-top: -22px;margin-left: -10px;background-image: url(../images/qlink_02.jpg);}
+.article>.article3>li:nth-child(3){margin-left: -20px;background-image: url(../images/qlink_03.jpg);}
+.article>.article3>li:nth-child(4){margin-top: 10px;margin-left: -10px;background-image: url(../images/qlink_04.jpg);}
+.article>.article3>li:nth-child(5){margin-left: -29px;background-image: url(../images/qlink_05.jpg);}
+.article>.article3>li:nth-child(6){margin-left: -5px;background-image: url(../images/qlink_06.jpg);}
+
+.article>.article3>li:nth-child(7){
+    position: absolute;
+    top: 0;
+    left: 920px;
+    width: 20px;
+    height: 312px;
+    background-image: url(../images/quicklink.gif);
+}
+
+.article>.article3>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.bar{margin-top: 8px;}
